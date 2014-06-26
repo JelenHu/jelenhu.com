@@ -6,7 +6,7 @@
   <title>Home</title>
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js" type="text/javascript">  </script>
   <script type="text/javascript">  
-        $.get("http://" + window.location.host + "/helloservlet/GetImgPath--", function(data){
+        $.get("http://" + window.location.host + "/bk/GetImgPath", function(data){
          $('body').css('background-image', 'url( ' + 'http://' + window.location.host + data + ')');
         })
   </script> 
